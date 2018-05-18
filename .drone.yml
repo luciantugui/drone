@@ -7,3 +7,7 @@ pipeline:
       - COMPOSER_HOME=.composer
     commands:
       - whoami
+  publish:
+    image: gecco/shop
+    repo: gecco/shop
+    tags: latest
