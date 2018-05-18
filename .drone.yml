@@ -9,5 +9,5 @@ pipeline:
       - whoami
   publish:
     image: gecco/shop
-    repo: nexus.mytintern.com:5000/gecco/shop
+    repo: nexus.mytintern.com:5000
     tags: latest
