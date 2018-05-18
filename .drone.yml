@@ -8,6 +8,6 @@ pipeline:
     commands:
       - whoami
   publish:
-    image: gecco/shop
-    repo: nexus.mytintern.com:5000
+    image: plugins/docker
+    repo: nexus.mytintern.com:5000/gecco/shop
     tags: latest
