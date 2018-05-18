@@ -1,0 +1,7 @@
+  build:
+    image: nexus.mytintern.com:5000/ci/base-php
+    pull: true
+    environment:
+      - COMPOSER_HOME=.composer
+    commands:
+      - whoami
